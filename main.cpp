@@ -9,6 +9,7 @@ int main(void)
     const int SCREEN_W = 1280;
     const int SCREEN_H = 720;
     InitWindow(SCREEN_W, SCREEN_H, "Pong");
+
     SetTargetFPS(60);
 
     Ball ball;
